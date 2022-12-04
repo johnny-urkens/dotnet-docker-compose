@@ -3,9 +3,9 @@ version: '3.4'
 services:
   test-backend:
     image: r0790759/test-backend
-    build:
-      context: .
-      dockerfile: /Dockerfile
+#     build:
+#       context: .
+#       dockerfile: /Dockerfile
     ports:
       - "8000:80"
     depends_on:
