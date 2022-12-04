@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   test-backend:
-    image: ${DOCKER_REGISTRY-}testbackend
+    image: r0790759/test-backend
     build:
       context: .
       dockerfile: test-backend/Dockerfile
