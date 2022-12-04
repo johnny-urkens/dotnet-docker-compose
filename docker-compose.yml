@@ -5,7 +5,7 @@ services:
     image: r0790759/test-backend
     build:
       context: .
-      dockerfile: /test-backend/Dockerfile
+      dockerfile: test-backend/test-backend/Dockerfile
     ports:
       - "8000:80"
     depends_on:
